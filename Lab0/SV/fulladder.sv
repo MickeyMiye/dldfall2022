@@ -1,5 +1,7 @@
-module silly (input  logic a, b, c, output logic y);
+module fulladder (input  logic a, b, cin, output logic, cout);
    
-  assign y = ~b & ~c | a & ~b;
+
+  assign cout = a & b | a & cin | b & cin;
+
    
 endmodule
