@@ -3,6 +3,7 @@ K4
 z2
 Z0 !s99 nomlopt
 R0
+R0
 !s11f vlog 2021.3 2021.07, Jul 13 2021
 13
 !s112 1.1
@@ -32,51 +33,62 @@ R4
 R5
 n@_opt1
 R6
+R1
+T_opt2
+!s110 1662663446
+VhjbDHHFP?aUaJzfLSfkNV2
+R2
+=1-3c58c256fa6d-631a3b14-1fb-2f78
+R3
+R4
+R5
+n@_opt2
+R6
 vsilly
 Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z8 !s110 1662568198
+Z8 !s110 1662663442
 !i10b 1
 !s100 @dTf^758zKTgl5Sk@WJ`Y2
 IbLMZYgZRc2bW6beFoT4:e1
 S1
-R1
-w1662568143
+Z9 dC:/Users/moger/dldfall2022/lab0/sv
+w1662589338
 8silly.sv
 Fsilly.sv
 !i122 0
 L0 1 6
-Z9 VDg1SIo80bB@j0V0VzS_@n1
-Z10 OL;L;2021.3;73
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z11 !s108 1662568198.000000
-Z12 !s107 silly_tb.sv|silly.sv|
-Z13 !s90 -reportprogress|300|silly.sv|silly_tb.sv|
+Z12 !s108 1662663442.000000
+Z13 !s107 silly_tb.sv|silly.sv|
+Z14 !s90 -reportprogress|300|silly.sv|silly_tb.sv|
 !i113 0
-Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R5
 vtb
 R7
 R8
 !i10b 1
-!s100 kRJP3VoIK[HCA6o3`n?0U0
-I?i>o[JW3fi62Yz;>_d1=h2
+!s100 [TC:7TO>mAgmGcjo9QzCH3
+IZJ?Kl?XGbFPLV=EEl8Jb42
 S1
-R1
-w1662503912
+R9
+w1662589331
 8silly_tb.sv
 Fsilly_tb.sv
 !i122 0
-L0 2 70
-R9
+L0 2 61
 R10
+R11
 r1
 !s85 0
 31
-R11
 R12
 R13
-!i113 0
 R14
+!i113 0
+R15
 R5

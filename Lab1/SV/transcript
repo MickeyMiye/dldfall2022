@@ -12,30 +12,29 @@
 # //  18 U.S.C. Section 1905.
 # //
 # do silly.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is Mickey Miye@DESKTOP-28QME6S.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is Mickey Miye@DESKTOP-28QME6S.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Errors: 0, Warnings: 1
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 13:57:22 on Sep 08,2022
+# Start time: 15:05:27 on Sep 22,2022
 # vlog -reportprogress 300 silly.sv silly_tb.sv 
-# -- Compiling module silly
+# -- Compiling module fulladder
+# -- Compiling module rca
 # -- Compiling module tb
 # 
 # Top level modules:
 # 	tb
-# End time: 13:57:22 on Sep 08,2022, Elapsed time: 0:00:00
+# End time: 15:05:27 on Sep 22,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.tb 
-# Start time: 13:57:22 on Sep 08,2022
+# Start time: 15:05:27 on Sep 22,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.tb(fast)
-# Loading work.silly(fast)
+# Loading work.rca(fast)
+# Loading work.fulladder(fast)
 # .main_pane.list.interior.cs.body
 # .main_pane.wave.interior.cs.body.pw.wf
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Mickey Miye  Hostname: DESKTOP-28QME6S  ProcessID: 35476
-#           Attempting to use alternate WLF file "./wlft4y3w55".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft4y3w55
+# ** Note: $finish    : silly_tb.sv(32)
+#    Time: 5 us  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at silly_tb.sv line 32
+# End time: 15:06:08 on Sep 22,2022, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
