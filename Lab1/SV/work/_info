@@ -9,12 +9,12 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/moger/dldfall2022/Lab1/sv
+Z0 dC:/Users/moger/dldfall2022/lab1/sv
 T_opt
-!s110 1663877128
-Vn;[5IY?D[VNOdMNDG_b^K0
+!s110 1664479673
+VH]Z?SjW]SH1KoO8a<<6`F3
 04 2 4 work tb fast 0
-=1-3c58c256fa6d-632cc008-218-5d10
+=1-3c58c256fa6d-6335f1b9-12f-235c
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
@@ -22,7 +22,7 @@ n@_opt
 OL;O;2021.3;73
 vfulladder
 Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1663877127
+Z3 !s110 1664479672
 !i10b 1
 !s100 nV81;f2mC[3cAWZQW9VVO0
 IY0TZ2FOAYlDWG?7Z;XERf1
@@ -38,7 +38,7 @@ Z8 OL;L;2021.3;73
 r1
 !s85 0
 31
-Z9 !s108 1663877127.000000
+Z9 !s108 1664479672.000000
 Z10 !s107 silly_tb.sv|silly.sv|
 Z11 !s90 -reportprogress|300|silly.sv|silly_tb.sv|
 !i113 0
