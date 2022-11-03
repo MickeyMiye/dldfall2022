@@ -12,8 +12,11 @@
 # //  18 U.S.C. Section 1905.
 # //
 # do des.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is Mickey Miye@DESKTOP-28QME6S.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 14:10:19 on Oct 20,2022
+# Start time: 19:06:42 on Oct 28,2022
 # vlog -reportprogress 300 des_stub.sv tb_des.sv 
 # -- Compiling module GenerateKeys
 # -- Compiling module PC1
@@ -37,10 +40,10 @@
 # 
 # Top level modules:
 # 	stimulus
-# End time: 14:10:19 on Oct 20,2022, Elapsed time: 0:00:00
+# End time: 19:06:43 on Oct 28,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.stimulus 
-# Start time: 14:10:19 on Oct 20,2022
+# Start time: 19:06:43 on Oct 28,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.stimulus(fast)
@@ -63,10 +66,14 @@
 # Loading work.SF(fast)
 # Loading work.FP(fast)
 # .main_pane.wave.interior.cs.body.pw.wf
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Mickey Miye  Hostname: DESKTOP-28QME6S  ProcessID: 32596
+#           Attempting to use alternate WLF file "./wlftsikymb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsikymb
 #          8 tests completed with          2 errors
 # ** Note: $finish    : tb_des.sv(61)
 #    Time: 75 ns  Iteration: 1  Instance: /stimulus
 # 1
 # Break in Module stimulus at tb_des.sv line 61
-# End time: 14:12:22 on Oct 20,2022, Elapsed time: 0:02:03
-# Errors: 0, Warnings: 0
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/moger/dldfall2022/Lab2/SV/wave.do
