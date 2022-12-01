@@ -1,0 +1,52 @@
+# //  ModelSim SE-64 2021.3 Jul 13 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do project.do
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:57:58 on Dec 01,2022
+# vlog -reportprogress 300 control.sv datapath.sv project_tb.sv clk_div.sv register.sv gridFSM.sv Mux.sv 
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module stimulus
+# -- Compiling module clk_div
+# -- Compiling module register
+# -- Compiling module GridFSM
+# -- Compiling module Mux
+# 
+# Top level modules:
+# 	stimulus
+# End time: 14:57:58 on Dec 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 14:57:58 on Dec 01,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.control(fast)
+# Loading work.clk_div(fast)
+# Loading work.GridFSM(fast)
+# Loading work.Mux(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.register(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# End time: 15:03:10 on Dec 01,2022, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 0

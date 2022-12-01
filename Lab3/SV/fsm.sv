@@ -33,33 +33,33 @@ module FSM (clk, reset, right, left, hazards,lights);
        S1: begin	  	  
 	  
     nextstate <= S2;
-    lights = 6'b000001;
+    lights = 6'b001000;
        end
        S2: begin
 
 	  
 	  nextstate <= S3;
-    lights = 6'b000011;
+    lights = 6'b011000;
        end
        S3: begin
 
 	  nextstate <= S0;
-    lights = 6'b000111;
+    lights = 6'b111000;
        end
        S4: begin
 
     nextstate <= S5;
-    lights = 6'b100000;
+    lights = 6'b000100;
        end
        S5: begin
 
 	  nextstate <= S6;
-    lights = 6'b110000;
+    lights = 6'b000110;
        end
        S6: begin
 
 	 nextstate <= S0;
-    lights = 6'b111000;
+    lights = 6'b000111;
        end
        S7:  begin
        

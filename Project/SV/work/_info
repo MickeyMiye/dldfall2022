@@ -1,0 +1,288 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.3 2021.07, Jul 13 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/moger/dldfall2022/project/sv
+T_opt
+!s110 1669928280
+V;25:n0dgUk>=V_k4li:kT2
+04 8 4 work stimulus fast 0
+=1-3c58c256fa6d-63891557-2a6-163c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.3;73
+vclk_div
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1669928278
+!i10b 1
+!s100 `JRJIPio>2zAaNOMPjME61
+Id@>3h@j:dj1Gn[AXzS>;J2
+S1
+R0
+w1662060243
+8clk_div.sv
+Fclk_div.sv
+!i122 0
+L0 1 14
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.3;73
+r1
+!s85 0
+31
+Z6 !s108 1669928278.000000
+Z7 !s107 Mux.sv|gridFSM.sv|register.sv|clk_div.sv|project_tb.sv|datapath.sv|control.sv|
+Z8 !s90 -reportprogress|300|control.sv|datapath.sv|project_tb.sv|clk_div.sv|register.sv|gridFSM.sv|Mux.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcontrol
+R2
+R3
+!i10b 1
+!s100 ^f58m]EUUo3FSacI6Nd@e1
+IWzPK?Z6Q1NPTkm9?E=QbQ1
+S1
+R0
+w1669928099
+8control.sv
+Fcontrol.sv
+!i122 0
+L0 1 15
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vdatapath
+R2
+R3
+!i10b 1
+!s100 eZPGK0_iZ_fEZR6SZYKKa2
+ICK_ckL`jNS[4HHYQR>94o3
+S1
+R0
+Z10 w1669926443
+Z11 8datapath.sv
+Z12 Fdatapath.sv
+!i122 0
+L0 8 79
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vevolve3
+R2
+R3
+!i10b 1
+!s100 X:<b;`T8DO5FGN1kcRY^X3
+I_iQU42ib?jdgC;1QQNE[41
+S1
+R0
+R10
+R11
+R12
+!i122 0
+L0 89 14
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vevolve5
+R2
+R3
+!i10b 1
+!s100 Ae1ZedezZgzUgTRe]`[`:1
+IobDk1Vi5@hCfm3<<?[SLo0
+S1
+R0
+R10
+R11
+R12
+!i122 0
+L0 104 17
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vevolve8
+R2
+R3
+!i10b 1
+!s100 >NAI^del47kZQfXl:Rm=X1
+ISW>FaF9RkBeK5k^Y53^g31
+S1
+R0
+R10
+R11
+R12
+!i122 0
+L0 123 23
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vGridFSM
+R2
+R3
+!i10b 1
+!s100 ?QPW6HFAD<UVVM=YU8PKB2
+IK9gI<2e>MW?;SEzd46N^_0
+S1
+R0
+w1669927475
+8gridFSM.sv
+FgridFSM.sv
+!i122 0
+L0 1 41
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@grid@f@s@m
+vMux
+R2
+R3
+!i10b 1
+!s100 XlQe[78TNhE71JoC^P2O43
+I18ENTC^BJSR`B:4WaMAGX2
+S1
+R0
+w1669927631
+8Mux.sv
+FMux.sv
+!i122 0
+L0 1 5
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@mux
+vregister
+R2
+R3
+!i10b 1
+!s100 `cgQD8HXl;V=n^MoOj1Nm3
+IMC>e5M8zl9Q=4BFoaBRcH3
+S1
+R0
+w1669924213
+8register.sv
+Fregister.sv
+!i122 0
+L0 1 11
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vrules
+R2
+R3
+!i10b 1
+!s100 U;4CY`cE4Xh`kNg5<RJK?3
+IB19acUH0=65kj[Nc<lZF@2
+S1
+R0
+R10
+R11
+R12
+!i122 0
+L0 148 9
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vstimulus
+R2
+R3
+!i10b 1
+!s100 SjCQlBYd`?<F]kiGdUbR53
+I=DAAzdD7n4cCf5V6SRaVR1
+S1
+R0
+w1669928219
+8project_tb.sv
+Fproject_tb.sv
+!i122 0
+L0 2 34
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
